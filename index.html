@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>portfolio  - Geekfusion 🇨🇮</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin-top: 20px;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #007BFF;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #0056b3;
+    }
+
+    .section {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #007BFF;
+      margin-bottom: 20px;
+    }
+
+    .projects, .posts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      padding: 10px 16px;
+      color: white;
+      background-color: #28a745;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .links a:hover {
+      background-color: #218838;
+    }
+
+    footer {
+      background-color: #ddd;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Geekfusion 🇨🇮</h1>
+    <img src="geekfusion.jpg" alt="Photo de Geekfusion">
+    <p>Aide-soignant | Créateur de contenu | Passionné de tech</p>
+  </header>
+
+  <nav>
+    <a href="#bio">Biographie</a>
+    <a href="#projets">Projets</a>
+    <a href="#publications">Publications</a>
+    <a href="#liens">Mes Réseaux</a>
+  </nav>
+
+  <section id="bio" class="section">
+    <h2>Biographie</h2>
+    <p>Je suis geekfusion, aide-soignant à l’hôpital . En dehors de mon travail, je suis passionné par l’écriture, les mangas, les jeux vidéo, la technologie et la création de contenu numérique. Je gère plusieurs comptes sur TikTok, Facebook et YouTube où je publie des vidéos inspirantes, humoristiques et geek. Mon objectif est de voyager à travers le monde (Japon, Chine, Canada) tout en bâtissant ma propre communauté.</p>
+  </section>
+
+  <section id="projets" class="section">
+    <h2>Projets</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Concours Jeux Vidéo Buyo</h3>
+        <p>Organisation d’un tournoi rassemblant Naruto, FIFA, Dragon Ball Z et plus pour promouvoir le gaming local.</p>
+      </div>
+      <div class="card">
+        <h3>Blog "Les Récits"</h3>
+        <p>Publication d’histoires captivantes et de fictions comme “Le Prix de la Vérité” ou “Amour Inattendu”.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" class="section">
+    <h2>Publications Récentes</h2>
+    <div class="posts">
+      <div class="card">
+        <h3>Vidéo TikTok - Motivation MLK</h3>
+        <p>Montage inspiré de Martin Luther King sur la liberté et le rêve africain moderne.</p>
+      </div>
+      <div class="card">
+        <h3>Histoire : Le Prix de la Vérité</h3>
+        <p>Une saga pleine de rebondissements, trahisons et amour, publiée sur ma page Facebook et WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="liens" class="section">
+    <h2>Mes Réseaux</h2>
+    <div class="links">
+      <a href="https://www.facebook.com/profile.php?id=100083046606709" target="_blank">Facebook</a>
+      <a href="https://www.tiktok.com/@geekfusion225" target="_blank">TikTok</a>
+      <a href="https://youtube.com/@geekfusion22" target="_blank">YouTube</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 - Portfolio | Geekfusion 🇨🇮
+  </footer>
+
+</body>
+</html>
